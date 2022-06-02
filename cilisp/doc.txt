@@ -1,0 +1,39 @@
+CI LISP Project
+Christopher Valencia
+
+Task 1:
+    cilisp.l:
+        -double token created
+        -func token created
+        -quit token created
+        -lparen rparen tokens created
+
+    cilisp.y:
+        -all tokens add
+        -all productions add
+        -s_expr_section has empty reduction NOT s_expr
+
+    cilisp.h:
+        -func_type enumeration done
+
+    cilisp.c:
+        -funcNames enumeration done
+        -createNumberNode done
+        -createFunctionNode done
+        -evalFuncNode switch statement enumerated need to create helper functions for evals
+        -eval helper functions done need to test
+        -TESTING:
+            -all zeros for output in add and abs test case need to debug
+            -fixed issue where I had the value and num type in wrond oder in cilisp.y
+            -unary test ran as expected
+            -had some binary test issues but were mostly fixed except pow case
+            -issues to debug nested functions
+            -eval funcs fixed for nested funcs EXCEPT min and max
+            -eval funcs working for nested and using recursive method
+
+Task 2:
+    cilisp.h
+        -typedefs have been completed as instructed
+
+    cilist.y
+        -working on the productions but having trouble with the let_list

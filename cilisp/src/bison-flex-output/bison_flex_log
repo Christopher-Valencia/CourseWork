@@ -1,0 +1,739 @@
+LEX: SYMBOL "x"
+BISON: s_expr ::= symbol 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "x"
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: SYMBOL "x"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "x"
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: LPAREN "("
+LEX: SYMBOL "x"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_list ::= let_elem let_list 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: SYMBOL "x"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "x"
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "x"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: SYMBOL "x"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "x"
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "y"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "add"
+LEX: SYMBOL "x"
+BISON: s_expr ::= symbol 
+LEX: SYMBOL "y"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "a"
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "b"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "add"
+LEX: SYMBOL "b"
+BISON: s_expr ::= symbol 
+LEX: INT "3"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: SYMBOL "a"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "a"
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "b"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "add"
+LEX: SYMBOL "b"
+BISON: s_expr ::= symbol 
+LEX: INT "3"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "add"
+LEX: SYMBOL "a"
+BISON: s_expr ::= symbol 
+LEX: SYMBOL "b"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "a"
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: LPAREN "("
+LEX: SYMBOL "b"
+LEX: SYMBOL "a"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_list ::= let_elem let_list 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "a"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: SYMBOL "b"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "b"
+LEX: SYMBOL "a"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "a"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: SYMBOL "b"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "a"
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: LPAREN "("
+LEX: SYMBOL "b"
+LEX: SYMBOL "a"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_list ::= let_elem let_list 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "c"
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "a"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: SYMBOL "a"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: SYMBOL "b"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "y"
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: LPAREN "("
+LEX: SYMBOL "x"
+LEX: SYMBOL "y"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_list ::= let_elem let_list 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "y"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: LPAREN "("
+LEX: SYMBOL "c"
+LEX: SYMBOL "x"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_list ::= let_elem let_list 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: SYMBOL "x"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: FUNC "add"
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "abc"
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "sub"
+LEX: INT "3"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: SYMBOL "abc"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: INT "4"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: FUNC "mult"
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "a"
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: LPAREN "("
+LEX: SYMBOL "b"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_list ::= let_elem let_list 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "add"
+LEX: SYMBOL "a"
+BISON: s_expr ::= symbol 
+LEX: SYMBOL "b"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "sqrt"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: FUNC "add"
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "a"
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "b"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "mult"
+LEX: SYMBOL "b"
+BISON: s_expr ::= symbol 
+LEX: LPAREN "("
+LEX: FUNC "sqrt"
+LEX: INT "10"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "div"
+LEX: SYMBOL "a"
+BISON: s_expr ::= symbol 
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "c"
+LEX: INT "5"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "sqrt"
+LEX: SYMBOL "c"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "first"
+LEX: LPAREN "("
+LEX: FUNC "sub"
+LEX: INT "5"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: LPAREN "("
+LEX: SYMBOL "second"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_list ::= let_elem let_list 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "add"
+LEX: LPAREN "("
+LEX: FUNC "pow"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: SYMBOL "first"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: LPAREN "("
+LEX: FUNC "sqrt"
+LEX: SYMBOL "second"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "abc"
+LEX: INT "1"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "sub"
+LEX: LPAREN "("
+LEX: LPAREN "("
+LEX: LET "let"
+LEX: LPAREN "("
+LEX: SYMBOL "abc"
+LEX: INT "2"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: LPAREN "("
+LEX: SYMBOL "de"
+LEX: INT "3"
+BISON: number ::= INT 
+BISON: s_expr ::= number 
+LEX: RPAREN ")"
+BISON: let_elem ::= LPAREN SYMBOL s_expr RPAREN 
+LEX: RPAREN ")"
+BISON: let_list ::= let_elem 
+BISON: let_list ::= let_elem let_list 
+BISON: let_section ::= LPAREN LET let_list RPAREN 
+LEX: LPAREN "("
+LEX: FUNC "add"
+LEX: SYMBOL "abc"
+BISON: s_expr ::= symbol 
+LEX: SYMBOL "de"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: SYMBOL "abc"
+BISON: s_expr ::= symbol 
+LEX: RPAREN ")"
+BISON: s_expr_list ::= s_expr 
+BISON: s_expr_list ::= s_expr s_expr_list 
+BISON: s_expr_section ::= s_expr_list 
+BISON: f_expr ::= LPAREN FUNC s_expr_section RPAREN 
+BISON: s_expr ::= f_expr 
+LEX: RPAREN ")"
+BISON: s_expr ::= LPAREN let_section s_expr RPAREN 
+LEX: EOL "
+"
+BISON: program ::= s_expr EOL 
+LEX: QUIT "quit"
+BISON: s_expr ::= QUIT 
