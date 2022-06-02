@@ -1,0 +1,11 @@
+This will become a problem with arithmetic order of operations because it will just go which ever way you are parsing instead of the proper order of operations to attain the correct outcome.
+for example:
+
+solved by grammar
+10 + 4 * 5 - 3 = 18
+this is incorrect according to proper math but correct according to grammar
+
+solved using order of operations
+10 + 4 * 5 - 3 = 27
+
+The problem arises because operations to the right go further towards the bottom of the tree and are evaluated first in order to flow back up the tree to finish the other operations.

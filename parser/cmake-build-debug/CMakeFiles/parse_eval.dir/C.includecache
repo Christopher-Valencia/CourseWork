@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Ckthulu/Documents/GitHub/parser-Ckthulu/src/eval.c
+eval.h
+/mnt/c/Users/Ckthulu/Documents/GitHub/parser-Ckthulu/src/eval.h
+math.h
+-
+
+/mnt/c/Users/Ckthulu/Documents/GitHub/parser-Ckthulu/src/eval.h
+parse.h
+/mnt/c/Users/Ckthulu/Documents/GitHub/parser-Ckthulu/src/parse.h
+
+/mnt/c/Users/Ckthulu/Documents/GitHub/parser-Ckthulu/src/parse.h
+stdio.h
+-
+stdlib.h
+-
+scan.h
+/mnt/c/Users/Ckthulu/Documents/GitHub/parser-Ckthulu/src/scan.h
+
+/mnt/c/Users/Ckthulu/Documents/GitHub/parser-Ckthulu/src/scan.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+
