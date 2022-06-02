@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/flex.h
+stdio.h
+-
+
+/mnt/c/Users/Ckthulu/Documents/GitHub/flex-Ckthulu/src/lexer/lexer.c
+stdio.h
+-
+string.h
+-
+errno.h
+-
+stdlib.h
+-
+inttypes.h
+-
+flex.h
+/mnt/c/Users/Ckthulu/Documents/GitHub/flex-Ckthulu/src/lexer/flex.h
+unistd.h
+-
+
