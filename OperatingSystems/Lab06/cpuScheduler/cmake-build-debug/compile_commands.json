@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab06/cpuScheduler/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab06/cpuScheduler/inc   -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG   -std=gnu11 -o CMakeFiles/cpuScheduler.dir/src/cpuScheduler.c.o   -c /home/christophervalencia/Desktop/comp362/ValenciaChristopherLab06/cpuScheduler/src/cpuScheduler.c",
+  "file": "/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab06/cpuScheduler/src/cpuScheduler.c"
+},
+{
+  "directory": "/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab06/cpuScheduler/cmake-build-debug",
+  "command": "/usr/bin/cc  -I/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab06/cpuScheduler/inc   -D_FILE_OFFSET_BITS=64 -g -Wall --pedantic -g -O0 -D_DEBUG   -std=gnu11 -o CMakeFiles/cpuScheduler.dir/src/processQueue.c.o   -c /home/christophervalencia/Desktop/comp362/ValenciaChristopherLab06/cpuScheduler/src/processQueue.c",
+  "file": "/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab06/cpuScheduler/src/processQueue.c"
+}
+]
