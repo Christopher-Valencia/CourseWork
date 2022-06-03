@@ -1,0 +1,1 @@
+/usr/bin/cc -m64 -g -O0 -D_DEBUG -Wall -g   CMakeFiles/processor.dir/src/processor.c.o CMakeFiles/processor.dir/src/processor_test.c.o  -o processor 

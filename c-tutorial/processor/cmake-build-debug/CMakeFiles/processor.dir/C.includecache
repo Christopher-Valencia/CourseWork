@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Ckthulu/Documents/GitHub/c-tutorial-Ckthulu/processor/src/processor.c
+processor.h
+/mnt/c/Users/Ckthulu/Documents/GitHub/c-tutorial-Ckthulu/processor/src/processor.h
+string.h
+-
+
+/mnt/c/Users/Ckthulu/Documents/GitHub/c-tutorial-Ckthulu/processor/src/processor.h
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+
