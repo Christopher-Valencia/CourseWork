@@ -1,0 +1,158 @@
+/**
+ * Name: Christopher Valencia
+ * Lab: Lab07
+ * Date: 03/24/21
+ **/
+ Script started on 2021-03-24 22:56:36-07:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="65" LINES="49"]
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab07/philoBase$ catttypescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txtexit
+
+./philoMonitor 5 5
+Start a dinner for 5 diners
+Philosopher no. 0 sits at the table.
+Philosopher no. 1 sits at the table.
+Philosopher no. 2 sits at the table.
+Philosopher no. 3 sits at the table.
+Philosopher no. 4 sits at the table.
+Philosopher no. 2 gets hungry for the 1 time!
+Philosopher no. 3 gets hungry for the 1 time!
+Philosopher no. 1 gets hungry for the 1 time!
+Philosopher no. 0 gets hungry for the 1 time!
+Philosopher no. 4 gets hungry for the 1 time!
+Philosopher no. 3 eating
+Philosopher no. 3 stopped eating for the 1 time!
+Philosopher no. 3 finished turn 1
+Philosopher no. 3 gets hungry for the 2 time!
+Philosopher no. 2 eating
+Philosopher no. 0 eating
+Philosopher no. 2 stopped eating for the 1 time!
+Philosopher no. 2 finished turn 1
+Philosopher no. 2 gets hungry for the 2 time!
+Philosopher no. 0 stopped eating for the 1 time!
+Philosopher no. 0 finished turn 1
+Philosopher no. 0 gets hungry for the 2 time!
+Philosopher no. 1 eating
+Philosopher no. 1 stopped eating for the 1 time!
+Philosopher no. 1 finished turn 1
+Philosopher no. 1 gets hungry for the 2 time!
+Philosopher no. 4 eating
+Philosopher no. 4 stopped eating for the 1 time!
+Philosopher no. 4 finished turn 1
+Philosopher no. 4 gets hungry for the 2 time!
+Philosopher no. 3 eating
+Philosopher no. 3 stopped eating for the 2 time!
+Philosopher no. 3 finished turn 2
+Philosopher no. 3 gets hungry for the 3 time!
+Philosopher no. 0 eating
+Philosopher no. 0 stopped eating for the 2 time!
+Philosopher no. 0 finished turn 2
+Philosopher no. 0 gets hungry for the 3 time!
+Philosopher no. 2 eating
+Philosopher no. 2 stopped eating for the 2 time!
+Philosopher no. 2 finished turn 2
+Philosopher no. 2 gets hungry for the 3 time!
+Philosopher no. 1 eating
+Philosopher no. 1 stopped eating for the 2 time!
+Philosopher no. 1 finished turn 2
+Philosopher no. 1 gets hungry for the 3 time!
+Philosopher no. 4 eating
+Philosopher no. 4 stopped eating for the 2 time!
+Philosopher no. 4 finished turn 2
+Philosopher no. 4 gets hungry for the 3 time!
+Philosopher no. 3 eating
+Philosopher no. 0 eating
+Philosopher no. 3 stopped eating for the 3 time!
+Philosopher no. 3 finished turn 3
+Philosopher no. 3 gets hungry for the 4 time!
+Philosopher no. 0 stopped eating for the 3 time!
+Philosopher no. 0 finished turn 3
+Philosopher no. 0 gets hungry for the 4 time!
+Philosopher no. 2 eating
+Philosopher no. 2 stopped eating for the 3 time!
+Philosopher no. 2 finished turn 3
+Philosopher no. 2 gets hungry for the 4 time!
+Philosopher no. 1 eating
+Philosopher no. 1 stopped eating for the 3 time!
+Philosopher no. 1 finished turn 3
+Philosopher no. 1 gets hungry for the 4 time!
+Philosopher no. 4 eating
+Philosopher no. 4 stopped eating for the 3 time!
+Philosopher no. 4 finished turn 3
+Philosopher no. 4 gets hungry for the 4 time!
+Philosopher no. 2 eating
+Philosopher no. 4 eating
+Philosopher no. 2 stopped eating for the 4 time!
+Philosopher no. 2 finished turn 4
+Philosopher no. 2 gets hungry for the 5 time!
+Philosopher no. 4 stopped eating for the 4 time!
+Philosopher no. 4 finished turn 4
+Philosopher no. 4 gets hungry for the 5 time!
+Philosopher no. 3 eating
+Philosopher no. 3 stopped eating for the 4 time!
+Philosopher no. 3 finished turn 4
+Philosopher no. 3 gets hungry for the 5 time!
+Philosopher no. 1 eating
+Philosopher no. 1 stopped eating for the 4 time!
+Philosopher no. 1 finished turn 4
+Philosopher no. 1 gets hungry for the 5 time!
+Philosopher no. 0 eating
+Philosopher no. 0 stopped eating for the 4 time!
+Philosopher no. 0 finished turn 4
+Philosopher no. 0 gets hungry for the 5 time!
+Philosopher no. 2 eating
+Philosopher no. 2 stopped eating for the 5 time!
+Philosopher no. 2 finished turn 5
+>>>>>> Philosopher no. 2 finished meal. <<<<<<
+Philosopher no. 4 eating
+Philosopher no. 4 stopped eating for the 5 time!
+Philosopher no. 4 finished turn 5
+>>>>>> Philosopher no. 4 finished meal. <<<<<<
+Philosopher no. 3 eating
+Philosopher no. 3 stopped eating for the 5 time!
+Philosopher no. 3 finished turn 5
+>>>>>> Philosopher no. 3 finished meal. <<<<<<
+Philosopher no. 1 eating
+Philosopher no. 1 stopped eating for the 5 time!
+Philosopher no. 1 finished turn 5
+>>>>>> Philosopher no. 1 finished meal. <<<<<<
+Philosopher no. 0 eating
+Philosopher no. 0 stopped eating for the 5 time!
+Philosopher no. 0 finished turn 5
+>>>>>> Philosopher no. 0 finished meal. <<<<<<
+Dinner is no more.
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab07/philoBase$ ./philoMonitor 3 2
+Start a dinner for 5 diners
+Philosopher no. 0 sits at the table.
+Philosopher no. 2 sits at the table.
+Philosopher no. 1 sits at the table.
+Philosopher no. 0 gets hungry for the 1 time!
+Philosopher no. 2 gets hungry for the 1 time!
+Philosopher no. 2 eating
+Philosopher no. 2 stopped eating for the 1 time!
+Philosopher no. 2 finished turn 1
+Philosopher no. 2 gets hungry for the 2 time!
+Philosopher no. 0 eating
+Philosopher no. 0 stopped eating for the 1 time!
+Philosopher no. 0 finished turn 1
+Philosopher no. 0 gets hungry for the 2 time!
+Philosopher no. 2 eating
+Philosopher no. 2 stopped eating for the 2 time!
+Philosopher no. 2 finished turn 2
+>>>>>> Philosopher no. 2 finished meal. <<<<<<
+Philosopher no. 0 eating
+Philosopher no. 1 gets hungry for the 1 time!
+Philosopher no. 0 stopped eating for the 2 time!
+Philosopher no. 0 finished turn 2
+>>>>>> Philosopher no. 0 finished meal. <<<<<<
+Philosopher no. 1 eating
+Philosopher no. 1 stopped eating for the 1 time!
+Philosopher no. 1 finished turn 1
+Philosopher no. 1 gets hungry for the 2 time!
+Philosopher no. 1 eating
+Philosopher no. 1 stopped eating for the 2 time!
+Philosopher no. 1 finished turn 2
+>>>>>> Philosopher no. 1 finished meal. <<<<<<
+Dinner is no more.
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab07/philoBase$ exit
+exit
+
+Script done on 2021-03-24 22:57:17-07:00 [COMMAND_EXIT_CODE="0"]
