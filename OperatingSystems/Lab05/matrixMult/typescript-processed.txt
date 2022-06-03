@@ -1,0 +1,72 @@
+/**
+ * Name: Christopher Valencia
+ * Lab: Lab05
+ * Date: 03/03/21
+ **/
+Script started on 2021-03-03 17:42:18-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="65" LINES="40"]
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab05/matrixMult$ ./matrixMult in.txt
+
+MATRIX A1
+1 4
+2 5
+3 6
+
+MATRIX B1
+8 7 6
+5 4 3
+
+MATRIX A1 x B1
+28 23 18
+41 34 27
+54 45 36
+
+MATRIX A2
+1 5
+2 6
+3 7
+4 8
+
+MATRIX B2
+9 8 7 6 5
+4 3 2 1 0
+
+MATRIX A2 x B2
+29 23 17 11 5
+42 34 26 18 10
+55 45 35 25 15
+68 56 44 32 20
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab05/matrixMult$ ./matrixMult in2.txt
+
+MATRIX A1
+1 4
+2 5
+3 6
+
+MATRIX B1
+8 7 6
+5 4 3
+
+MATRIX A1 x B1
+28 23 18
+41 34 27
+54 45 36
+
+MATRIX A2
+4 2
+5 1
+5 2
+6 3
+
+MATRIX B2
+7 4 8 9 8
+7 6 5 4 3
+
+MATRIX A2 x B2
+42 28 42 44 38
+42 26 45 49 43
+49 32 50 53 46
+63 42 63 66 57
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab05/matrixMult$ exit
+exit
+
+Script done on 2021-03-03 17:42:53-08:00 [COMMAND_EXIT_CODE="0"]

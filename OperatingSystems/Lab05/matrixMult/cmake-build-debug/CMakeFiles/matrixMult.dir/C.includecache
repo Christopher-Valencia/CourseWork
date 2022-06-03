@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab05/matrixMult/matrixMult.c
+matrixMult.h
+/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab05/matrixMult/matrixMult.h
+
+/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab05/matrixMult/matrixMult.h
+pthread.h
+-
+stdio.h
+-
+stdlib.h
+-
+
