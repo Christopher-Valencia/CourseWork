@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Ckthulu/Documents/GitHub/scanner-2-Ckthulu/src/main.c
+scanner.h
+/mnt/c/Users/Ckthulu/Documents/GitHub/scanner-2-Ckthulu/src/scanner.h
+
+/mnt/c/Users/Ckthulu/Documents/GitHub/scanner-2-Ckthulu/src/scanner.c
+scanner.h
+/mnt/c/Users/Ckthulu/Documents/GitHub/scanner-2-Ckthulu/src/scanner.h
+
+/mnt/c/Users/Ckthulu/Documents/GitHub/scanner-2-Ckthulu/src/scanner.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+ctype.h
+-
+

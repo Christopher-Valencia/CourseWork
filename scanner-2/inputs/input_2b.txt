@@ -1,0 +1,15 @@
+x=3456;
+
+f = 8.0000;
+
+print x;
+
+10-90;
+
+5 / 5;
+
+repeat (6) print hello;
+
+f = x;
+
+3testing

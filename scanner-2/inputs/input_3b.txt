@@ -1,0 +1,9 @@
+assert ( 'Hello World' )
+
+NOT 'Hello'
+
+'Hello' AND 'World'
+
+( 'Hello' OR 'World' )
+
+retract ( 'Goodbye World$' )
