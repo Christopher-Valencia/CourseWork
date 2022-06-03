@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab03/proc_hier/iam.c
+stdio.h
+-
+unistd.h
+-
+errno.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+

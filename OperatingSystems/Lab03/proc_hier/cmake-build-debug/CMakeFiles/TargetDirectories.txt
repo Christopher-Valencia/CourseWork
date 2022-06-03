@@ -1,0 +1,4 @@
+/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab03/proc_hier/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab03/proc_hier/cmake-build-debug/CMakeFiles/iam.dir
+/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab03/proc_hier/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab03/proc_hier/cmake-build-debug/CMakeFiles/proc_hier.dir
