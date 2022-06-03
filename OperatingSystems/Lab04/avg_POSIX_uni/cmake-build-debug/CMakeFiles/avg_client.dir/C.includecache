@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/christophervalencia/Desktop/comp362/Lab04/avg_POSIX_uni/avg_POSIX_client.c
+avg_POSIX_messg.h
+/home/christophervalencia/Desktop/comp362/Lab04/avg_POSIX_uni/avg_POSIX_messg.h
+
+/home/christophervalencia/Desktop/comp362/Lab04/avg_POSIX_uni/avg_POSIX_messg.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+errno.h
+-
+mqueue.h
+-
+stdbool.h
+-
+

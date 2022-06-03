@@ -1,0 +1,4 @@
+/home/christophervalencia/Desktop/comp362/Lab04/avg_POSIX_uni/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/christophervalencia/Desktop/comp362/Lab04/avg_POSIX_uni/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/christophervalencia/Desktop/comp362/Lab04/avg_POSIX_uni/cmake-build-debug/CMakeFiles/avg_client.dir
+/home/christophervalencia/Desktop/comp362/Lab04/avg_POSIX_uni/cmake-build-debug/CMakeFiles/avg_server.dir
