@@ -1,0 +1,85 @@
+/**
+ * Name: Christopher Valencia
+ * Lab: Lab02
+ * Date: 02/10/21
+ **/
+
+Script started on 2021-02-10 20:00:25-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="132" LINES="40"]
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab02/sub[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab02/sub[00m$ sub --a -+x -i testInput1.txt
+My fxvorite holidxy is Christmxs.
+Whxt's yours?
+
+Well, mine is Hxlloween.
+Thxnks for xsking. :)
+ÿ]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab02/sub[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab02/sub[00m$ sub --a -+x -o dest.tct[K[Kxt
+I bou   am going to buy all the s axes        food.
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab02/sub[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab02/sub[00m$ sun[Kb --a -+x -o[K[K[K
+T All the apples are great today. !
+All the xpples xre grext todxy!
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab02/sub[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab02/sub[00m$ sub --ab -+xyz
+sub: WARNING - extraneous replacement character
+How about them bears?
+How xyout them yexrs?
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab02/sub[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab02/sub[00m$ sub --abc -+xyz[K
+sub: Error - missing replacement character
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab02/sub[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab02/sub[00m$ sib[K[Kub --[Ki testInput1.txt --ol -+zx - 
+o testo[KOutput1.txt
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab02/sub[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab02/sub[00m$ sub -[K--ia [K[Ka -o testOutput2.txt --[K+ yw 
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Kyw  
+-i testInput2.txt
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab02/sub[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab02/sub[00m$ exit[K[K[K[Ksub
+USAGE:
+   sub [ -h | --fromChars -+toChars [-i inputFile] [-o outputFile] ]
+
+DESCRIPTION:
+   This utility copies text from an input stream to an output stream replacing every 
+   instance of a specific character in fromChars with a corresponding (position-wise) 
+   character from toChars. Any characters in fromChars and in toChars that do not 
+   have corresponding counterparts in the other one are ignored. If an input file is 
+   provided, the content is read from that file; otherwise, the standard input is used. 
+   If an output file is provided, then the modified content is written to that file; 
+   otherwise, the standard output is used.
+
+OPTIONS:
+   --(followed by a string without separating space)
+     indicates all characters that will be replaced in the processed text
+   -+(followed by a string without separating space) 
+     indicates the characters that will be used to replace corresponding 
+     (position-wise) characters from fromChars in the processed text
+   -i (followed by input file name) 
+     use the provided file as an input stream instead of standard input 
+   -o (followed by output file name) 
+     use the provided file as an output stream instead of standard output 
+   -h prints this help message; it is also a default if no command line
+     arguments are provided
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab02/sub[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab02/sub[00m$ sub -h
+USAGE:
+   sub [ -h | --fromChars -+toChars [-i inputFile] [-o outputFile] ]
+
+DESCRIPTION:
+   This utility copies text from an input stream to an output stream replacing every 
+   instance of a specific character in fromChars with a corresponding (position-wise) 
+   character from toChars. Any characters in fromChars and in toChars that do not 
+   have corresponding counterparts in the other one are ignored. If an input file is 
+   provided, the content is read from that file; otherwise, the standard input is used. 
+   If an output file is provided, then the modified content is written to that file; 
+   otherwise, the standard output is used.
+
+OPTIONS:
+   --(followed by a string without separating space)
+     indicates all characters that will be replaced in the processed text
+   -+(followed by a string without separating space) 
+     indicates the characters that will be used to replace corresponding 
+     (position-wise) characters from fromChars in the processed text
+   -i (followed by input file name) 
+     use the provided file as an input stream instead of standard input 
+   -o (followed by output file name) 
+     use the provided file as an output stream instead of standard output 
+   -h prints this help message; it is also a default if no command line
+     arguments are provided
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab02/sub[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab02/sub[00m$ exit
+exit
+
+Script done on 2021-02-10 20:06:47-08:00 [COMMAND_EXIT_CODE="0"]

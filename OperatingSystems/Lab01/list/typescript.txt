@@ -1,0 +1,1383 @@
+/**
+ * Name: Christopher Valencia
+ * Lab: Lab01
+ * Date: 02/02/21
+ **/
+Script started on 2021-02-02 19:06:33-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="103" LINES="28"]
+]0;christophervalencia@christophervalencia-VirtualBox: ~[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mPictures[0m  [01;34msnap[0m       typescript-processed.txt  [01;34mVideos[0m
+[01;34mDocuments[0m  [01;34mMusic[0m      [01;34mPublic[0m    [01;34mTemplates[0m  typescript.txt
+]0;christophervalencia@christophervalencia-VirtualBox: ~[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~[00m$ cd desktop
+bash: cd: desktop: No such file or directory
+]0;christophervalencia@christophervalencia-VirtualBox: ~[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~[00m$ cd Desktop
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop[00m$ cd chrisp[Ktopher [Kvalencia
+bash: cd: christophervalencia: No such file or directory
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop[00m$ ls
+[0m[01;34mcomp362[0m
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop[00m$ cd comp362
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362[00m$ ls
+[0m[01;34mValenciaChristopherLab01[0m
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362[00m$ cd ValenciaChristopherLab01
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01[00m$ ls
+[0m[01;34mlist[0m  [01;31mlist.zip[0m
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01[00m$ cd lide
+bash: cd: lide: No such file or directory
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01[00m$ cd list
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ ls
+[0m[01;34mcmake-build-debug[0m  CMakeLists.txt  [01;32mlist[0m  list.c  list.h  main.c  output_of_list.txt
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ 
+[K]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ 
+[K]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ cd cmake-build-debug
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[00m$ ls
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[00m$ cmake -[K-DCMAKE_ 
+BUILD_typ[K[K[KTYPE=DE[Kge[K[Kebug ..
+-- The C compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/christophervalencia/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[00m$ make
+[35m[1mScanning dependencies of target list[0m
+[ 33%] [32mBuilding C object CMakeFiles/list.dir/main.c.o[0m
+[ 66%] [32mBuilding C object CMakeFiles/list.dir/list.c.o[0m
+[100%] [32m[1mLinking C executable list[0m
+[100%] Built target list
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[00m$ ./ ;ist[K[K[K[Klist
+bash: ./: Is a directory
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[00m$ cd ..
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ /[K./ list
+bash: ./: Is a directory
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ ./list
+hello
+world
+i
+am
+here
+DATA ITEM 1: hello
+
+DATA ITEM 2: world
+
+DATA ITEM 3: i
+
+DATA ITEM 4: am
+
+DATA ITEM 5: here
+
+1
+2
+3
+Segmentation fault (core dumped)
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ 4
+4: command not found
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ gsb[K[Kdb list
+[35;1m[35;1mGNU gdb [m[35;1m(Ubuntu 9.2-0ubuntu1~20.04) [m[35;1m9.2[m[35;1m
+[m[mCopyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from [32mlist[m...
+(gdb) quit
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ gdb --tui list
+[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[H[2J[27d(B[0;7mNone No process In:                                                                                                    L??   PC: ?? [27;132H(B[m[H(0[0m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[3;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[4;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[5;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[6;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[7;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[8;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[9;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[10;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[11;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[12;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[13;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[14;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[15;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[16;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[17;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[18;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[19;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[20;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[21;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[22;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[23;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[24;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[25;1H(0[0m[36mx[39m(B(B[m[132G(0[0m[36mx[39m(B(B[m[26;1H(0[0m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[1;1H(0[0m[36m[39m(B(B[m[14;43H[ No Source Available ][14;43H[23X[H[14;43H[ No Source Available ][?1h=
+[28d[H(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[14;66H(0[0;1;7m[36m[39m(B(B[m[27;132H[H[2J(0[0;1;7m[36mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk[39m(B(B[m[2;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[3;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[4;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[5;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[6;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[7;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[8;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[9;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[10;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[11;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[12;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[13;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[14;1H(0[0;1;7m[36mx[39m(B(B[m[14;43H(0[0;1;7m[36m[39m(B(B[m[ No Source Available ][132G(0[0;1;7m[36mx[39m(B(B[m[15;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[16;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[17;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[18;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[19;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[20;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[21;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[22;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[26;1H(0[0;1;7m[36mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj[39m(B(B[m[27;1H(0[0;1;7m[36m[39m(B[0;7mNone No process In:                                                                                                    L??   PC: ?? [14;66H(B[m
+[27d
+(B[0;1m[35mGNU gdb (Ubuntu 9.2-0ubuntu1~20.04) 9.2
+[39m(B[mCopyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+--Type <RET> for more, q to quit, c to continue without paging--run
+[28d[2M[40d[28d[M[39dFor help, type "help".
+[28d[M[39dType "apropos word" to search for commands related to "word"...
+[28d[M[39dReading symbols from [32mlist[39m(B[m...
+[1;4H(B[0;1;7m[36mmain.c
+[5G[39m(B[m25[2;17H{
+[5G26[3;20HLIST *list;
+[5G27
+28[5;20Hallocate_list(&list, NUM_OF_NODES);
+[5G29[6;20Hload_list(list);
+[5G30[7;20Hprint_list(list);
+[5G31[8;20Hfree_list_emb(list);
+[5G32
+33[10;20Hallocate_list(&list, NUM_OF_NODES);
+[5G34[11;20Hload_list(list);
+[5G35[12;20Hprint_list(list);
+[5G36[13;20Hfree_list_tail(list);
+[5G37[14;43H[23X
+[5G38[15;20Hallocate_list(&list, NUM_OF_NODES);
+[5G39[16;20Hload_list(list);
+[5G40[17;20Hprint_list(list);
+[5G41[18;20Hfree_list_iter(list);
+[5G42[19;17H}[1;10H[25;5H
+
+(B[0;7mexec[132G(B[m[1;10H[25;5H
+
+[132G
+[40d(gdb) [2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   24[2;17Hint main(void)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   23[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   22[2;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   21[2;25H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   20[2;33Hlist = list->next;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   19[2;33Hprintf("DATA ITEM %d: %s\n", count++, list->data);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   18[2;25H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   17[2;25Hwhile(list != NULL)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   16[2;25Hint count = 1;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   15[2;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   14[2;17Hvoid print_list(LIST *list)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   13[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   12[2;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   11[2;25H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   10[2;33Hlist = list->next;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   9[2;33Hgetline(&(list->data), &size, stdin);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   8[2;25H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   7[2;25Hwhile(list != NULL)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   6[2;25Hsize_t size = 0;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   5[2;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   4[2;17Hvoid load_list(LIST *list)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   3[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   2[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   1[2;17H#include "list.h"[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   25[25;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   26[25;20HLIST *list;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   27[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   28[25;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   29[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   30[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   31[25;20Hfree_list_emb(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   32[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   33[25;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   34[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   35[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   36[25;20Hfree_list_tail(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   37[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   38[25;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   39[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   40[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   41[25;20Hfree_list_iter(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   42[25;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   32[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   31[2;20Hfree_list_emb(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   30[2;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   29[2;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   28[2;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   27[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   26[2;20HLIST *list;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   25[2;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   24[2;17Hint main(void)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   23[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   22[2;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   21[2;25H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   20[2;33Hlist = list->next;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   19[2;33Hprintf("DATA ITEM %d: %s\n", count++, list->data);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   18[2;25H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   17[2;25Hwhile(list != NULL)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   16[2;25Hint count = 1;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   15[2;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   14[2;17Hvoid print_list(LIST *list)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   13[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   12[2;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   11[2;25H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   10[2;33Hlist = list->next;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   9[2;33Hgetline(&(list->data), &size, stdin);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   8[2;25H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   7[2;25Hwhile(list != NULL)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   6[2;25Hsize_t size = 0;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   5[2;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   4[2;17Hvoid load_list(LIST *list)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   3[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   2[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   1[2;17H#include "list.h"[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   25[25;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   26[25;20HLIST *list;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   27[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   28[25;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   29[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   30[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   31[25;20Hfree_list_emb(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   32[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   33[25;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   34[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   35[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   36[25;20Hfree_list_tail(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   37[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   38[25;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   39[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   40[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   41[25;20Hfree_list_iter(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   42[25;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   24[2;17Hint main(void)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   23[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   22[2;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   21[2;25H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7Hbreak 33
+[28d[2M[39dBreakpoint 1 at [34m0x1439[39m(B[m: file [32mmain.c[39m(B[m, line 33.
+[14;2Hb+[25d 
+[40d(gdb) run
+[28d[2M[39dStarting program: /home/christophervalencia/Desktop/comp362/ValenciaChristopherLab01/list/list
+[2;25r[25;1H[4S[1;40r[10;2H  
+
+
+
+b+
+[22d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[23;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[24;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[10;2Hb+
+
+
+
+  [25d 
+
+(B[0;7mnative process 10565 In:[132G(B[m
+[40d[1;10H[25;5H
+
+[132G
+[40d[1;10H[25;5H
+
+[132G
+[40d[1;10H[25;5H
+
+[132G
+[40dhello
+worlk d
+I
+am her    
+here
+DATA ITEM 1: hello
+
+DATA ITEM 2: world
+
+DATA ITEM 3: I
+
+DATA ITEM 4: am
+
+DATA ITEM 5: here
+
+[10;2HB[25d  
+
+
+[M[40d[28d[M[39dBreakpoint 1, [33mmain[39m(B[m () at [32mmain.c[39m(B[m:33
+[27;26H(B[0;7mmain[27;108HL33   PC: 0x555555555439(B[m[10;5H(B[0;7m33             allocate_list(&list, NUM_OF_NODES);[1;10H(B[m[10;4H>[25d
+[40d[27;132H
+[40d(gdb) [2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   24[2;17Hint main(void)[132G(0[0;1;7m[36mx[39m(B(B[m[10;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[10;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   23[132G(0[0;1;7m[36mx[39m(B(B[m[11;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[11;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   22[2;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[12;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[12;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   21[2;25H}[132G(0[0;1;7m[36mx[39m(B(B[m[13;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[13;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   20[2;33Hlist = list->next;[132G(0[0;1;7m[36mx[39m(B(B[m[14;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[14;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   19[2;33Hprintf("DATA ITEM %d: %s\n", count++, list->data);[132G(0[0;1;7m[36mx[39m(B(B[m[15;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[15;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   18[2;25H{[132G(0[0;1;7m[36mx[39m(B(B[m[16;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[16;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   17[2;25Hwhile(list != NULL)[132G(0[0;1;7m[36mx[39m(B(B[m[17;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[17;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   16[2;25Hint count = 1;[132G(0[0;1;7m[36mx[39m(B(B[m[18;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[18;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   15[2;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[19;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[19;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   14[2;17Hvoid print_list(LIST *list)[132G(0[0;1;7m[36mx[39m(B(B[m[20;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[20;2H   
+B+>
+
+
+
+
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   13[132G(0[0;1;7m[36mx[39m(B(B[m[21;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[21;2H   
+B+>
+
+
+
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   12[2;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[22;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[22;2H   
+B+>
+
+
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   11[2;25H}[132G(0[0;1;7m[36mx[39m(B(B[m[23;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[23;2H   
+B+>
+
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   10[2;33Hlist = list->next;[132G(0[0;1;7m[36mx[39m(B(B[m[24;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[24;2H   
+B+>
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   9[2;33Hgetline(&(list->data), &size, stdin);[132G(0[0;1;7m[36mx[39m(B(B[m[25;2H(0[0;1;7m[36m[39m(B(B[mB+>[1;10H[25;2H   
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   8[2;25H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   7[2;25Hwhile(list != NULL)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   6[2;25Hsize_t size = 0;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   5[2;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   4[2;17Hvoid load_list(LIST *list)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   3[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   2[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   1[2;17H#include "list.h"[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   25[25;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   26[25;20HLIST *list;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   27[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   28[25;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   29[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   30[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   31[25;20Hfree_list_emb(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   32[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   (B[0;7m33             allocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;2HB+>
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[24;2H   
+(0[0;1;7m[36mx[39m(B(B[mB+>34[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[24;2HB+>
+   
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[23;2H   
+B+>
+(0[0;1;7m[36mx[39m(B(B[m   35[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[23;2HB+>
+   
+
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[22;2H   
+B+>
+
+(0[0;1;7m[36mx[39m(B(B[m   36[25;20Hfree_list_tail(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[22;2HB+>
+   
+
+
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[21;2H   
+B+>
+
+
+(0[0;1;7m[36mx[39m(B(B[m   37[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[21;2HB+>
+   
+
+
+
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[20;2H   
+B+>
+
+
+
+(0[0;1;7m[36mx[39m(B(B[m   38[25;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[20;2HB+>
+   
+
+
+
+
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[19;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m   39[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[19;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[18;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m   40[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[18;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[17;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m   41[25;20Hfree_list_iter(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[17;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[16;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m   42[25;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[16;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[15;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[15;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[14;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[14;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[13;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[13;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[12;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[12;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[11;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[11;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[10;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[10;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[9;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[9;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[8;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[8;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[7;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[7;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[6;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[6;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[5;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[5;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[4;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+
+
+[CB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[3;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+
+[CB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[2;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+[CB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[2;2HB+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+[C   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   36[2;20Hfree_list_tail(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   35[2;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   34[2;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   (B[0;7m33             allocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m
+[CB+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[mB+>32[132G(0[0;1;7m[36mx[39m(B(B[m[3;2H(0[0;1;7m[36m[39m(B(B[m   [1;10H
+[C   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   31[2;20Hfree_list_emb(list);[132G(0[0;1;7m[36mx[39m(B(B[m[3;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H
+
+[C   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   30[2;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[4;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H
+
+
+[C   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   29[2;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[5;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[5;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   28[2;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[6;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[6;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   27[132G(0[0;1;7m[36mx[39m(B(B[m[7;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[7;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   26[2;20HLIST *list;[132G(0[0;1;7m[36mx[39m(B(B[m[8;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[8;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   25[2;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[9;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[9;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   24[2;17Hint main(void)[132G(0[0;1;7m[36mx[39m(B(B[m[10;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[10;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   23[132G(0[0;1;7m[36mx[39m(B(B[m[11;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[11;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   22[2;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[12;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[12;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   21[2;25H}[132G(0[0;1;7m[36mx[39m(B(B[m[13;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[13;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   20[2;33Hlist = list->next;[132G(0[0;1;7m[36mx[39m(B(B[m[14;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[14;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   19[2;33Hprintf("DATA ITEM %d: %s\n", count++, list->data);[132G(0[0;1;7m[36mx[39m(B(B[m[15;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[15;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   18[2;25H{[132G(0[0;1;7m[36mx[39m(B(B[m[16;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[16;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   17[2;25Hwhile(list != NULL)[132G(0[0;1;7m[36mx[39m(B(B[m[17;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[17;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   16[2;25Hint count = 1;[132G(0[0;1;7m[36mx[39m(B(B[m[18;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[18;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   15[2;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[19;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[19;2H   
+B+>[25d
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   14[2;17Hvoid print_list(LIST *list)[132G(0[0;1;7m[36mx[39m(B(B[m[20;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[20;2H   
+B+>
+
+
+
+
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   13[132G(0[0;1;7m[36mx[39m(B(B[m[21;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[21;2H   
+B+>
+
+
+
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   12[2;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[22;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[22;2H   
+B+>
+
+
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   11[2;25H}[132G(0[0;1;7m[36mx[39m(B(B[m[23;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[23;2H   
+B+>
+
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   10[2;33Hlist = list->next;[132G(0[0;1;7m[36mx[39m(B(B[m[24;2H(0[0;1;7m[36m[39m(B(B[mB+>
+   [1;10H[24;2H   
+B+>
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   9[2;33Hgetline(&(list->data), &size, stdin);[132G(0[0;1;7m[36mx[39m(B(B[m[25;2H(0[0;1;7m[36m[39m(B(B[mB+>[1;10H[25;2H   
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   8[2;25H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   7[2;25Hwhile(list != NULL)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   6[2;25Hsize_t size = 0;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   5[2;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   4[2;17Hvoid load_list(LIST *list)[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   3[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   2[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[2;1HM[1;40r[2;1H(0[0;1;7m[36mx[39m(B(B[m   1[2;17H#include "list.h"[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[1;10H[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   25[25;17H{[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   26[25;20HLIST *list;[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   27[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   28[25;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   29[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   30[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   31[25;20Hfree_list_emb(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   32[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;5H
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[25;1H(0[0;1;7m[36mx[39m(B(B[m   (B[0;7m33             allocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[25;2HB+>
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[24;2H   
+(0[0;1;7m[36mx[39m(B(B[mB+>34[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[24;2HB+>
+   
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[23;2H   
+B+>
+(0[0;1;7m[36mx[39m(B(B[m   35[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[23;2HB+>
+   
+
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[22;2H   
+B+>
+
+(0[0;1;7m[36mx[39m(B(B[m   36[25;20Hfree_list_tail(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[22;2HB+>
+   
+
+
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[21;2H   
+B+>
+
+
+(0[0;1;7m[36mx[39m(B(B[m   37[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[21;2HB+>
+   
+
+
+
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[20;2H   
+B+>
+
+
+
+(0[0;1;7m[36mx[39m(B(B[m   38[25;20Hallocate_list(&list, NUM_OF_NODES);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[20;2HB+>
+   
+
+
+
+
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[19;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m   39[25;20Hload_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[19;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[18;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m   40[25;20Hprint_list(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[18;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[17;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m   41[25;20Hfree_list_iter(list);[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[17;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[16;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m   42[25;17H}[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[16;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[15;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[15;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[14;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[14;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[13;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[13;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[12;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[12;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[11;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[11;2HB+>
+   [25d
+
+[132G[40;7H[2;25r[25;1H
+[1;40r[10;2H   
+B+>
+[25d(0[0;1;7m[36mx[39m(B(B[m[132G(0[0;1;7m[36mx[39m(B(B[m[1;10H(0[0;1;7m[36m[39m(B(B[m[10;2HB+>
+   [25d
+
+[132G[40;7Hwhere
+[28d[2M[39d#0  [33mmain[39m(B[m () at [32mmain.c[39m(B[m:33
+[27;132H
+[40d(gdb) print     my_war   variables 
+[28d[M[40dNo symbol "my_variable" in current context.
+[28d[M[40d[27;132H
+[40d(gdb) print list
+[28d[2M[39d$1 = (LIST *) [34m0x5555555592a0
+[39m(B[m[27;132H
+[40d(gdb) print *list
+[28d[2M[39d$2 = {data = [34m0x5555555592c0[39m(B[m "\340\222UUUU", next = [34m0x555555559010[39m(B[m}
+[27;132H
+[40d(gdb) print (*list(.data)[1;10H[25;5H[40;26H[1;10H[25;5H[40;26H[1;10H[25;5H[40;26H[1;10H[25;5H[40;26H[1;10H[25;5H[40;26H       ).data
+[28d[2M[39d$3 = [34m0x5555555592c0[39m(B[m "\340\222UUUU"
+[27;132H
+[40d(gdb) p list->next
+[28d[2M[39d$4 = (struct list *) [34m0x555555559010
+[39m(B[m[27;132H
+[40d(gdb) n
+[28d[M[40d[27;110H(B[0;7m4[130G4a(B[m[10;5H33             allocate_list(&list, NUM_OF_NODES);
+[5G(B[0;7m34             load_list(list);[1;10H(B[m[10;4H 
+>[25d
+[40d[27;132H
+[40d(gdb) p *li   (*list).data
+[28d[2M[39d$5 = [34m0x5555555592c0[39m(B[m "\340\222UUUU"
+[27;132H
+[40d(gdb) n
+[28d[M[40dhello
+world
+I
+[28d[M[40d[28d[M[39dProgram received signal SIGSEGV, Segmentation fault.
+
+[28d[M[39d[33m__memcpy_ssse3[39m(B[m () at [32m../sysdeps/x86_64/multiarch/memcpy-ssse3.S[39m(B[m:2109
+[27;26H(B[0;7m__memcpy_ssse3[27;109H2109[120G7ffff7f2ec64(B[m
+[40d../sysdeps/x86_64/multiarch/memcpy-ssse3.S: No such file or directory.
+[28d[M[40d[27;132H
+[40d(gdb) terminate called after throwing an instance of 'gdb_exception_error'
+Aborted (core dumped)
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ gdb --tui list[6Plist4[K./list list[2Pcd .../ list[3Pmakecmake -DCMAKE_BUILD_TYPE=Debug ..[A
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ ls[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd cmake-build-debugls[Kcd listdels[K[K[Kcd lidestls[Kcd cmake-build-debugls[Kcd listde[Kcd lidestls[Kcd cmake-build-debugls[Kcmake -DCMAKE_BUILD_TYPE=Debug ..[A
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ make[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./ list[2Pcd .../ list[1Plist4[Kgdb list--tui list[Kgdb --tui list[6Plist4[K./list > output_of_list.txt
+1
+2
+3
+4
+5
+6
+7
+8
+Segmentation fault (core dumped)
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ ./list > output_of_list.txt[13Pgdb --tui list[6Plist4[K./list list[2Pcd .../ list[2Pcd .../ list[1Plist4[Kgdb list--tui list./list > output_of_list.txt[K./list > output_of_list.txt[13Pgdb --tui list[6Plist4[K./list list[2Pcd .../ list[2Pcd .../ list[1Plist4[Kgdb list--tui list./list > output_of_list.txt[Knano list.[K[K[K[K[Klist.c
+[?2004h[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[38;60H(B[0;7m[ Reading... ](B[m[38;58H(B[0;7m[ Read 55 lines ](B[m[H(B[0;7m  GNU nano 4.8                                                   list.c                                                             [1;131H(B[m
+[39d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo[39;113H(B[0;7mM-A(B[m Mark Text
+[40d(B[0;7m^X(B[m Exit[40;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo[40;113H(B[0;7mM-6(B[m Copy Text
+[38d[2d(B[0;1m[36m#include[39m(B[m (B[0;1m[33m"list.h"
+[4d(B[0m[32mvoid[39m(B[m allocate_list((B[0;1m[31mLIST[39m(B[m **list, [32mint[39m(B[m count)
+[5d{[6d  (B[0;1m[33mif[39m(B[m (count == 0)[7;4H{[8d  [35mreturn[39m(B[m;[9;4H}[11d*list = ((B[0;1m[31mLIST[39m(B[m*)malloc([32msizeof[39m(B[m((B[0;1m[31mLIST[39m(B[m));[12;5H(*list)->data = malloc([32msizeof[39m(B[m ([32mchar[39m(B[m)*(B[0;1m[31mMAX_SIZE_OF_DATA[39m(B[m);[13;4Hallocate_list(&((*list)->next), --count);
+[15d}[17d[32mvoid[39m(B[m free_list_iter((B[0;1m[31mLIST[39m(B[m *head)
+[18d{[19d  (B[0;1m[33mwhile[39m(B[m (head != (B[0;1m[31mNULL[39m(B[m)[20;4H{[21d  (B[0;1m[31mLIST[39m(B[m *next = head->next;[22;7H(B[0;1m[33mif[39m(B[m (head->data != (B[0;1m[31mNULL[39m(B[m)[23;10Hfree(head->data);[24;7Hfree(head);[25;7Hhead = next;[26;4H}
+[27d}[29d[32mvoid[39m(B[m free_list_emb((B[0;1m[31mLIST[39m(B[m *head)
+[30d{[31d  (B[0;1m[31mLIST[39m(B[m *curr = head;[33;4H(B[0;1m[33mif[39m(B[m (curr->next)[34;7Hfree_list_emb(curr->next);[36;4H(B[0;1m[33mif[39m(B[m (head->data != (B[0;1m[31mNULL[39m(B[m)[37;7Hfree(curr->data);
+[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l*[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l([?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l
+[38d[K[11;18H[?12l[?25h[?25l)[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25l([?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l([?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[12d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;123H(B[0;7mModified(B[m[12;34H[1P[?12l[?25h[?25l[39;17H[17X[39;34H(B[0;7mM-D(B[m DOS Format[19X[39;67H(B[0;7mM-A(B[m Append[14X[39;97H   (B[0;7mM-B(B[m Backup File[K[40;2H(B[0;7mC(B[m Cancel[17G[17X[40;34H(B[0;7mM-M(B[m Mac Format[19X[40;67H(B[0;7mM-P(B[m Prepend[22X[40;100H(B[0;7m^T(B[m To Files[K
+[38d(B[0;7mFile Name to Write: list.c                                                                                                          [38;1H(B[m[38;27H[?12l[?25h[?25l[38;59H[1K (B[0;7m[ Writing... ](B[m[K[1;123H(B[0;7m        (B[m[38;58H(B[0;7m[ Wrote 55 lines ](B[m[39;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify      (B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo        (B[0;7mM-A(B[m Mark Text[40;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo        (B[0;7mM-6(B[m Copy Text
+[38d[12;34H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l
+[38d[K[12;8H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[1;123H(B[0;7mModified(B[m
+[12d[1P   [?12l[?25h[?25l[39;17H[17X[39;34H(B[0;7mM-D(B[m DOS Format[19X[39;67H(B[0;7mM-A(B[m Append[14X[39;97H   (B[0;7mM-B(B[m Backup File[K[40;2H(B[0;7mC(B[m Cancel[17G[17X[40;34H(B[0;7mM-M(B[m Mac Format[19X[40;67H(B[0;7mM-P(B[m Prepend[22X[40;100H(B[0;7m^T(B[m To Files[K
+[38d(B[0;7mFile Name to Write: list.c                                                                                                          [38;1H(B[m[38;27H[?12l[?25h[?25l[38;59H[1K (B[0;7m[ Writing... ](B[m[K[1;123H(B[0;7m        (B[m[38;58H(B[0;7m[ Wrote 55 lines ](B[m[39;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify      (B[0;7m^C(B[m Cur Pos[97G(B[0;7mM-U(B[m Undo        (B[0;7mM-A(B[m Mark Text[40;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Paste Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7mM-E(B[m Redo        (B[0;7mM-6(B[m Copy Text
+[38d[12;4H[?12l[?25h[?25l
+[16d[?12l[?25h[?25l[20;4H[?12l[?25h[?25l[24d[?12l[?25h[?25l
+[28d[?12l[?25h[?25l[32d[?12l[?25h[?25l[36;4H[?12l[?25h[?25l[2;38r[38;1H[3S[1;40r[35;1H[K[36;4Hfree(curr);
+[37d}[?12l[?25h[?25l[33d  [?12l[?25h[?25l
+[29d[?12l[?25h[?25l[25d[?12l[?25h[?25l[21;4H[?12l[?25h[?25l[17d[?12l[?25h[?25l
+[13d[?12l[?25h[?25l[9;4H[?12l[?25h[?25l[5d[?12l[?25h[?25l[2;37r[2;1HM[1;40r[2;1H[32mvoid[39m(B[m allocate_list((B[0;1m[31mLIST[39m(B[m **list, [32mint[39m(B[m count)[4G[?12l[?25h[?25l7[2;38r8
+[2T[1;40r[2;1H(B[0;1m[36m#include[39m(B[m (B[0;1m[33m"list.h"[4G[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l
+[39d[J[40d[?12l[?25h[40;1H[?1049l[23;0;0t
+[?1l>[?2004l]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ list[K[K[K[K./list
+1
+2
+3
+4
+5
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+6
+7
+8
+Segmentation fault (core dumped)
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ cd cmake_[K-build-debug
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[00m$ cmake -DCMAKE_ 
+BUILD_TYPE=Debug
+CMake Warning:
+  No source or binary directory provided.  Both will be assumed to be the
+  same as the current working directory, but note that this warning will
+  become a fatal error in future CMake releases.
+
+
+CMake Error: The source directory "/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[00m$ m[Kmake
+[35m[1mScanning dependencies of target list[0m
+[ 33%] [32mBuilding C object CMakeFiles/list.dir/list.c.o[0m
+[ 66%] [32m[1mLinking C executable list[0m
+[100%] Built target list
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug[00m$ cd ..
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ ./list
+1
+2
+
+3
+4
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 
+
+DATA ITEM 4: 3
+
+DATA ITEM 5: 4
+
+1
+2
+3
+Segmentation fault (core dumped)
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ gcc -,[Km64 - g[K[Kg -O0 -D_DEBUG -Wall l 
+ist.c main.c -o list
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ ./list
+1
+2
+3
+4
+5
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+6
+7
+8
+9
+10
+DATA ITEM 1: 6
+
+DATA ITEM 2: 7
+
+DATA ITEM 3: 8
+
+DATA ITEM 4: 9
+
+DATA ITEM 5: 10
+
+11
+12
+13
+14
+15
+DATA ITEM 1: 11
+
+DATA ITEM 2: 12
+
+DATA ITEM 3: 13
+
+DATA ITEM 4: 14
+
+DATA ITEM 5: 15
+
+]0;christophervalencia@christophervalencia-VirtualBox: ~/Desktop/comp362/ValenciaChristopherLab01/list[01;32mchristophervalencia@christophervalencia-VirtualBox[00m:[01;34m~/Desktop/comp362/ValenciaChristopherLab01/list[00m$ exit
+exit
+
+Script done on 2021-02-02 20:58:01-08:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,43 @@
+SJ
+Log Session
+
+$script typescript.txt
+.
+.
+$exit
+
+Clean up log
+
+$cat typescript.txt | perl -pe 's/\e([^\[\]]|\[.*?[a-zA-Z]|\].*?\a)//g' | col -b > typescript-processed.txt
+
+------------------------------------------------------
+
+Build
+
+$ mkdir cmake-build-debug
+$ cd cmake-build-debug
+
+$ cmake -DCMAKE_BUILD_TYPE=Debug ..
+$ make
+
+$ cmake -DCMAKE_BUILD_TYPE=Release ..
+$ make
+
+$ cd ..
+$ gcc -m64 -g -O0 -D_DEBUG -Wall list.c main.c -o list 
+or
+$ gcc -m64 -g -O0 -D_DEBUG -Wall *.c -o list 
+
+------------------------------------------------------
+
+Capture ouput
+
+$./myprogram > output_of_my_program.txt
+
+------------------------------------------------------
+
+/**
+ * Name: Christopher Valencia
+ * Lab: Lab07
+ * Date: 03/24/21
+ **/

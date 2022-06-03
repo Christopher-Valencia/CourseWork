@@ -1,0 +1,35 @@
+/**
+ * Name: Christopher Valencia
+ * Lab: Lab01
+ * Date: 02/02/21
+ **/
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+DATA ITEM 1: 6
+
+DATA ITEM 2: 7
+
+DATA ITEM 3: 8
+
+DATA ITEM 4: 9
+
+DATA ITEM 5: 10
+
+DATA ITEM 1: 11
+
+DATA ITEM 2: 12
+
+DATA ITEM 3: 13
+
+DATA ITEM 4: 14
+
+DATA ITEM 5: 15
+

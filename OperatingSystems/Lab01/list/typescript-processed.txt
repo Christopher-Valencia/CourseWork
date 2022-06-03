@@ -1,0 +1,1283 @@
+/**
+ * Name: Christopher Valencia
+ * Lab: Lab01
+ * Date: 02/02/21
+ **/
+Script started on 2021-02-02 19:06:33-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="103" LINES="28"]
+christophervalencia@christophervalencia-VirtualBox:~$ ls
+Desktop    Downloads  Pictures	snap	   typescript-processed.txt  Videos
+Documents  Music      Public	Templates  typescript.txt
+christophervalencia@christophervalencia-VirtualBox:~$ cd desktop
+bash: cd: desktop: No such file or directory
+christophervalencia@christophervalencia-VirtualBox:~$ cd Desktop
+christophervalencia@christophervalencia-VirtualBox:~/Desktop$ cd christophervalencia
+bash: cd: christophervalencia: No such file or directory
+christophervalencia@christophervalencia-VirtualBox:~/Desktop$ ls
+comp362
+christophervalencia@christophervalencia-VirtualBox:~/Desktop$ cd comp362
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362$ ls
+ValenciaChristopherLab01
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362$ cd ValenciaChristopherLab01
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01$ ls
+list  list.zip
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01$ cd lide
+bash: cd: lide: No such file or directory
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01$ cd list
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ ls
+cmake-build-debug  CMakeLists.txt  list  list.c  list.h  main.c  output_of_list.txt
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ cd cmake-build-debug
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug$ ls
+BUILD_TYPE=Debugc..@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug$ cmake -DCMAKE_
+-- The C compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/christophervalencia/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug$ make
+Scanning dependencies of target list
+[ 33%] Building C object CMakeFiles/list.dir/main.c.o
+[ 66%] Building C object CMakeFiles/list.dir/list.c.o
+[100%] Linking C executable list
+[100%] Built target list
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug$ ./ list
+bash: ./: Is a directory
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug$ cd ..
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ ./ list
+bash: ./: Is a directory
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ ./list
+hello
+world
+i
+am
+here
+DATA ITEM 1: hello
+
+DATA ITEM 2: world
+
+DATA ITEM 3: i
+
+DATA ITEM 4: am
+
+DATA ITEM 5: here
+
+1
+2
+3
+Segmentation fault (core dumped)
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ 4
+4: command not found
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ gdb list
+GNU gdb (Ubuntu 9.2-0ubuntu1~20.04) 9.2
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from list...
+(gdb) quit
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ gdb --tui list
+0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjBB0BB0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0BB[ No Source Available ]0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqjBB0BNone No process In:													  L??	PC: ?? B
+BGNU gdb (Ubuntu 9.2-0ubuntu1~20.04) 9.2
+BCopyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+Foryhelp,Etypeo"help". q to quit, c to continue without paging--run
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from listB...
+Bmain.c
+B25{
+26LIST *list;
+27
+28allocate_list(&list, NUM_OF_NODES);
+29load_list(list);
+30print_list(list);
+31free_list_emb(list);
+32
+33allocate_list(&list, NUM_OF_NODES);
+34load_list(list);
+35print_list(list);
+36free_list_tail(list);
+37
+38allocate_list(&list, NUM_OF_NODES);
+39load_list(list);
+40print_list(list);
+41free_list_iter(list);
+42}
+
+BexecB
+
+(gdb) 0xBB   24int main(void)0xBB0BB
+
+0xBB   230xBB0BB
+
+0xBB   22}0xBB0BB
+
+0xBB   21}0xBB0BB
+
+0xBB   20list = list->next;0xBB0BB
+
+0xBB   19printf("DATA ITEM %d: %s\n", count++, list->data);0xBB0BB
+
+0xBB   18{0xBB0BB
+
+0xBB   17while(list != NULL)0xBB0BB
+
+0xBB   16int count = 1;0xBB0BB
+
+0xBB   15{0xBB0BB
+
+0xBB   14void print_list(LIST *list)0xBB0BB
+
+0xBB   130xBB0BB
+
+0xBB   12}0xBB0BB
+
+0xBB   11}0xBB0BB
+
+0xBB   10list = list->next;0xBB0BB
+
+0xBB   9getline(&(list->data), &size, stdin);0xBB0BB
+
+0xBB   8{0xBB0BB
+
+0xBB   7while(list != NULL)0xBB0BB
+
+0xBB   6size_t size = 0;0xBB0BB
+
+0xBB   5{0xBB0BB
+
+0xBB   4void load_list(LIST *list)0xBB0BB
+
+0xBB   30xBB0BB
+
+0xBB   20xBB0BB
+
+0xBB   1#include "list.h"0xBB0BB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0xBB   25{0xBB0BB
+
+
+0xBB   26LIST *list;0xBB0BB
+
+
+0xBB   270xBB0BB
+
+
+0xBB   28allocate_list(&list, NUM_OF_NODES);0xBB0BB
+
+
+0xBB   29load_list(list);0xBB0BB
+
+
+0xBB   30print_list(list);0xBB0BB
+
+
+0xBB   31free_list_emb(list);0xBB0BB
+
+
+0xBB   320xBB0BB
+
+
+0xBB   33allocate_list(&list, NUM_OF_NODES);0xBB0BB
+
+
+0xBB   34load_list(list);0xBB0BB
+
+
+0xBB   35print_list(list);0xBB0BB
+
+
+0xBB   36free_list_tail(list);0xBB0BB
+
+
+0xBB   370xBB0BB
+
+
+0xBB   38allocate_list(&list, NUM_OF_NODES);0xBB0BB
+
+
+0xBB   39load_list(list);0xBB0BB
+
+
+0xBB   40print_list(list);0xBB0BB
+
+
+0xBB   41free_list_iter(list);0xBB0BB
+
+
+0xBB   42}0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+0xBB   320xBB0BB
+
+0xBB   31free_list_emb(list);0xBB0BB
+
+0xBB   30print_list(list);0xBB0BB
+
+0xBB   29load_list(list);0xBB0BB
+
+0xBB   28allocate_list(&list, NUM_OF_NODES);0xBB0BB
+
+0xBB   270xBB0BB
+
+0xBB   26LIST *list;0xBB0BB
+
+0xBB   25{0xBB0BB
+
+0xBB   24int main(void)0xBB0BB
+
+0xBB   230xBB0BB
+
+0xBB   22}0xBB0BB
+
+0xBB   21}0xBB0BB
+
+0xBB   20list = list->next;0xBB0BB
+
+0xBB   19printf("DATA ITEM %d: %s\n", count++, list->data);0xBB0BB
+
+0xBB   18{0xBB0BB
+
+0xBB   17while(list != NULL)0xBB0BB
+
+0xBB   16int count = 1;0xBB0BB
+
+0xBB   15{0xBB0BB
+
+0xBB   14void print_list(LIST *list)0xBB0BB
+
+0xBB   130xBB0BB
+
+0xBB   12}0xBB0BB
+
+0xBB   11}0xBB0BB
+
+0xBB   10list = list->next;0xBB0BB
+
+0xBB   9getline(&(list->data), &size, stdin);0xBB0BB
+
+0xBB   8{0xBB0BB
+
+0xBB   7while(list != NULL)0xBB0BB
+
+0xBB   6size_t size = 0;0xBB0BB
+
+0xBB   5{0xBB0BB
+
+0xBB   4void load_list(LIST *list)0xBB0BB
+
+0xBB   30xBB0BB
+
+0xBB   20xBB0BB
+
+0xBB   1#include "list.h"0xBB0BB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0xBB   25{0xBB0BB
+
+
+0xBB   26LIST *list;0xBB0BB
+
+
+0xBB   270xBB0BB
+
+
+0xBB   28allocate_list(&list, NUM_OF_NODES);0xBB0BB
+
+
+0xBB   29load_list(list);0xBB0BB
+
+
+0xBB   30print_list(list);0xBB0BB
+
+
+0xBB   31free_list_emb(list);0xBB0BB
+
+
+0xBB   320xBB0BB
+
+
+0xBB   33allocate_list(&list, NUM_OF_NODES);0xBB0BB
+
+
+0xBB   34load_list(list);0xBB0BB
+
+
+0xBB   35print_list(list);0xBB0BB
+
+
+0xBB   36free_list_tail(list);0xBB0BB
+
+
+0xBB   370xBB0BB
+
+
+0xBB   38allocate_list(&list, NUM_OF_NODES);0xBB0BB
+
+
+0xBB   39load_list(list);0xBB0BB
+
+
+0xBB   40print_list(list);0xBB0BB
+
+
+0xBB   41free_list_iter(list);0xBB0BB
+
+
+0xBB   42}0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+0xBB   24int main(void)0xBB0BB
+
+0xBB   230xBB0BB
+
+0xBB   22}0xBB0BB
+
+0xBB   21}0xBB0BB
+
+Breakpoint 1 at 0x1439B: file main.cB, line 33.
+Startingnprogram: /home/christophervalencia/Desktop/comp362/ValenciaChristopherLab01/list/list
+
+
+
+
+0xBB0xBB0xBB0xBB0xBB0xBB0xBB0xBB0BBb+
+
+
+
+
+
+Bnative process 10565 In:B
+
+
+
+
+
+hello
+world
+I
+am her
+here
+DATA ITEM 1: hello
+
+DATA ITEM 2: world
+
+DATA ITEM 3: I
+
+DATA ITEM 4: am
+
+DATA ITEM 5: here
+
+B
+
+
+Breakpoint 1, mainB () at main.cB:33
+(gdb)L0xBB PC24int5main(void)0xBB0BBB+>       allocate_list(&list, NUM_OF_NODES);B>
+
+B+>
+
+0xBB   230xBB0BBB+>
+
+B+>
+
+0xBB   22}0xBB0BBB+>
+
+B+>
+
+0xBB   21}0xBB0BBB+>
+
+B+>
+
+0xBB   20list = list->next;0xBB0BBB+>
+
+B+>
+
+0xBB   19printf("DATA ITEM %d: %s\n", count++, list->data);0xBB0BBB+>
+
+B+>
+
+0xBB   18{0xBB0BBB+>
+
+B+>
+
+0xBB   17while(list != NULL)0xBB0BBB+>
+
+B+>
+
+0xBB   16int count = 1;0xBB0BBB+>
+
+B+>
+
+0xBB   15{0xBB0BBB+>
+
+B+>
+
+0xBB   14void print_list(LIST *list)0xBB0BBB+>
+
+B+>
+
+
+
+
+
+0xBB   130xBB0BBB+>
+
+B+>
+
+
+
+
+0xBB   12}0xBB0BBB+>
+
+B+>
+
+
+
+0xBB   11}0xBB0BBB+>
+
+B+>
+
+
+0xBB   10list = list->next;0xBB0BBB+>
+
+B+>
+
+0xBB   9getline(&(list->data), &size, stdin);0xBB0BBB+>
+
+0xBB   8{0xBB0BB
+
+0xBB   7while(list != NULL)0xBB0BB
+
+0xBB   6size_t size = 0;0xBB0BB
+
+0xBB   5{0xBB0BB
+
+0xBB   4void load_list(LIST *list)0xBB0BB
+
+0xBB   30xBB0BB
+
+0xBB   20xBB0BB
+
+0xBB   1#include "list.h"0xBB0BB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0xBB   25{0xBB0BB
+
+
+0xBB   26LIST *list;0xBB0BB
+
+
+0xBB   270xBB0BB
+
+
+0xBB   28allocate_list(&list, NUM_OF_NODES);0xBB0BB
+
+
+0xBB   29load_list(list);0xBB0BB
+
+
+0xBB   30print_list(list);0xBB0BB
+
+
+0xBB   31free_list_emb(list);0xBB0BB
+
+
+0xBB   320xBB0BB
+
+
+0xBB   B33	       allocate_list(&list, NUM_OF_NODES);0xBB0BBB+>
+
+
+
+0xBBB+>34load_list(list);0xBB0BBB+>
+
+
+
+
+B+>
+0xBB   35print_list(list);0xBB0BBB+>
+
+
+
+
+
+B+>
+
+0xBB   36free_list_tail(list);0xBB0BBB+>
+
+
+
+
+
+
+B+>
+
+
+0xBB   370xBB0BBB+>
+
+
+
+
+
+
+
+B+>
+
+
+
+0xBB   38allocate_list(&list, NUM_OF_NODES);0xBB0BBB+>
+
+
+
+
+
+
+
+
+0xBB   39load_list(list);0xBB0BBB+>
+
+
+
+
+0xBB   40print_list(list);0xBB0BBB+>
+
+
+
+
+0xBB   41free_list_iter(list);0xBB0BBB+>
+
+
+
+
+0xBB   42}0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BB
+
+
+B+>
+
+
+
+
+0xBB0xBB0BB
+
+B+>
+
+
+
+
+0xBB0xBB0BB
+B+>
+
+
+
+0xBB0xBB0BB
+
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+
+0xBB0xBB0BB
+
+0xBB   36free_list_tail(list);0xBB0BB
+
+0xBB   35print_list(list);0xBB0BB
+
+0xBB   34load_list(list);0xBB0BB
+
+0xBB   B33	       allocate_list(&list, NUM_OF_NODES);0xBB0BB
+B+>
+
+0xBBB+>320xBB0BB
+
+B+>
+
+0xBB   31free_list_emb(list);0xBB0BBB+>
+
+
+
+B+>
+
+0xBB   30print_list(list);0xBB0BBB+>
+
+
+
+
+B+>
+
+0xBB   29load_list(list);0xBB0BBB+>
+
+B+>
+
+0xBB   28allocate_list(&list, NUM_OF_NODES);0xBB0BBB+>
+
+B+>
+
+0xBB   270xBB0BBB+>
+
+B+>
+
+0xBB   26LIST *list;0xBB0BBB+>
+
+B+>
+
+0xBB   25{0xBB0BBB+>
+
+B+>
+
+0xBB   24int main(void)0xBB0BBB+>
+
+B+>
+
+0xBB   230xBB0BBB+>
+
+B+>
+
+0xBB   22}0xBB0BBB+>
+
+B+>
+
+0xBB   21}0xBB0BBB+>
+
+B+>
+
+0xBB   20list = list->next;0xBB0BBB+>
+
+B+>
+
+0xBB   19printf("DATA ITEM %d: %s\n", count++, list->data);0xBB0BBB+>
+
+B+>
+
+0xBB   18{0xBB0BBB+>
+
+B+>
+
+0xBB   17while(list != NULL)0xBB0BBB+>
+
+B+>
+
+0xBB   16int count = 1;0xBB0BBB+>
+
+B+>
+
+0xBB   15{0xBB0BBB+>
+
+B+>
+
+0xBB   14void print_list(LIST *list)0xBB0BBB+>
+
+B+>
+
+
+
+
+
+0xBB   130xBB0BBB+>
+
+B+>
+
+
+
+
+0xBB   12}0xBB0BBB+>
+
+B+>
+
+
+
+0xBB   11}0xBB0BBB+>
+
+B+>
+
+
+0xBB   10list = list->next;0xBB0BBB+>
+
+B+>
+
+0xBB   9getline(&(list->data), &size, stdin);0xBB0BBB+>
+
+0xBB   8{0xBB0BB
+
+0xBB   7while(list != NULL)0xBB0BB
+
+0xBB   6size_t size = 0;0xBB0BB
+
+0xBB   5{0xBB0BB
+
+0xBB   4void load_list(LIST *list)0xBB0BB
+
+0xBB   30xBB0BB
+
+0xBB   20xBB0BB
+
+0xBB   1#include "list.h"0xBB0BB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0xBB   25{0xBB0BB
+
+
+0xBB   26LIST *list;0xBB0BB
+
+
+0xBB   270xBB0BB
+
+
+0xBB   28allocate_list(&list, NUM_OF_NODES);0xBB0BB
+
+
+0xBB   29load_list(list);0xBB0BB
+
+
+0xBB   30print_list(list);0xBB0BB
+
+
+0xBB   31free_list_emb(list);0xBB0BB
+
+
+0xBB   320xBB0BB
+
+
+0xBB   B33	       allocate_list(&list, NUM_OF_NODES);0xBB0BBB+>
+
+
+
+0xBBB+>34load_list(list);0xBB0BBB+>
+
+
+
+
+B+>
+0xBB   35print_list(list);0xBB0BBB+>
+
+
+
+
+
+B+>
+
+0xBB   36free_list_tail(list);0xBB0BBB+>
+
+
+
+
+
+
+B+>
+
+
+0xBB   370xBB0BBB+>
+
+
+
+
+
+
+
+B+>
+
+
+
+0xBB   38allocate_list(&list, NUM_OF_NODES);0xBB0BBB+>
+
+
+
+
+
+
+
+
+0xBB   39load_list(list);0xBB0BBB+>
+
+
+
+
+0xBB   40print_list(list);0xBB0BBB+>
+
+
+
+
+0xBB   41free_list_iter(list);0xBB0BBB+>
+
+
+
+
+0xBB   42}0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+
+
+0xBB0xBB0BBB+>
+
+
+#0ermainB () at main.cB:33
+$1d=)(LISTt*)i0x5555555592a0urrent context.
+$2d=){datat=*0x5555555592c0B "\340\222UUUU", next = 0x555555559010B}
+$3d=)0x5555555592c0Bd"\340\222UUUU"
+$4d=)(struct-listt*) 0x555555559010
+B44aB33 	    allocate_list(&list, NUM_OF_NODES);
+B34		load_list(list);B
+$5d=)0x5555555592c0B "\340\222UUUU"
+hello n
+world
+I
+Program received signal SIGSEGV, Segmentation fault.
+__memcpy_ssse3B () at ../sysdeps/x86_64/multiarch/memcpy-ssse3.SB:2109
+(gdb)sterminate6callediaftermthrowingsan.instancecoff'gdb_exception_error'
+Aborted (core dumped)
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ lsakes-DCMAKE_BUILD_TYPE=Debug ..
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ make
+./lists>ioutput_of_list.txt
+1
+2
+3
+4
+5
+6
+7
+8
+Segmentation fault (core dumped)
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ nanoslist.ctput_of_list.txt
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$i./listoaFilesad_=Inext;}DATAB);alBoB[tWriting...*]BBt)->nextBB[-Wrotet55 lines ]BB^OB Write Out    B^WB Where Is	 B^KB Cut Text	   B^JB Justify      B^CB Cur PosBM-UB Undo	   BM-AB Mark TextBXB Exit  B^RB Read File    B^\B Replace	B^UB Paste Text   B^TB To Spell     B^_B Go To Line   BM-EB Redo	BM-6B Copy Text
+1
+2
+3
+4
+5
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+6
+7
+8
+Segmentation fault (core dumped)
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ cd cmake-build-debug
+BUILD_TYPE=Debugcia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug$ cmake -DCMAKE_
+CMake Warning:
+  No source or binary directory provided.  Both will be assumed to be the
+  same as the current working directory, but note that this warning will
+  become a fatal error in future CMake releases.
+
+
+CMake Error: The source directory "/home/christophervalencia/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug" does not appear to contain CMakeLists.txt.
+Specify --help for usage, or press the help button on the CMake GUI.
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug$ make
+Scanning dependencies of target list
+[ 33%] Building C object CMakeFiles/list.dir/list.c.o
+[ 66%] Linking C executable list
+[100%] Built target list
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list/cmake-build-debug$ cd ..
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ ./list
+1
+2
+
+3
+4
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3:
+
+DATA ITEM 4: 3
+
+DATA ITEM 5: 4
+
+1
+2
+3
+Segmentation fault (core dumped)
+ist.ctmain.ca-onlistchristophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ gcc -m64 -gg-O0 -D_DEBUG -Wall l
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ ./list
+1
+2
+3
+4
+5
+DATA ITEM 1: 1
+
+DATA ITEM 2: 2
+
+DATA ITEM 3: 3
+
+DATA ITEM 4: 4
+
+DATA ITEM 5: 5
+
+6
+7
+8
+9
+10
+DATA ITEM 1: 6
+
+DATA ITEM 2: 7
+
+DATA ITEM 3: 8
+
+DATA ITEM 4: 9
+
+DATA ITEM 5: 10
+
+11
+12
+13
+14
+15
+DATA ITEM 1: 11
+
+DATA ITEM 2: 12
+
+DATA ITEM 3: 13
+
+DATA ITEM 4: 14
+
+DATA ITEM 5: 15
+
+christophervalencia@christophervalencia-VirtualBox:~/Desktop/comp362/ValenciaChristopherLab01/list$ exit
+exit
+
+Script done on 2021-02-02 20:58:01-08:00 [COMMAND_EXIT_CODE="0"]
